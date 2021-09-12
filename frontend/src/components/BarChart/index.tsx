@@ -72,7 +72,3 @@ const BarChart = () => {
 }
 
 export default BarChart;
-
-function userState<T>(arg0: { labels: { categories: string[] }; series: { name: string; data: number[] }[] }): [any, any] {
-    throw new Error('Function not implemented.')
-}
